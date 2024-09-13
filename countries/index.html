@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./script.js" defer>  </script>
+</head>
+<body>
+    <div class="container"> 
+        <div class="row mt-5">
+
+            <div class="col-4">
+                <select name="" id="id_region" class="form-control form-select" onchange="displayCountryByRegion(event)">
+                    <option value=""> choose region </option>
+                </select>
+            </div>
+
+            <div class="col-4">
+                <select name="" id="id_select" class="form-control form-select" onchange="displayCountryName(event)" >
+                    <option value="" >select country</option>
+                </select>
+            </div>    
+
+            <div class="col-4" ></div>
+
+        </div>
+ 
+
+        <div class="row" id="root">
+            
+        </div>
+    </div>
+</body>
+</html>
